@@ -1,0 +1,50 @@
+@use "sass:math";
+
+@mixin btn(
+  $bg-color: #e2e2e2,
+  $border-radius: math.div($base-border-radius, 4)
+) {
+  background-color: $bg-color;
+  padding: $base-padding $base-padding * 2;
+  display: inline-flex;
+  border-radius: $border-radius;
+  transition: all 0.3s linear;
+}
+
+.btn {
+  @include btn;
+}
+
+@each $key, $val in $colors {
+  .btn-#{$key} {
+    @include btn($val, math.div($base-border-radius, 4));
+    &:hover {
+      background-color: lighten($val, 10);
+    }
+  }
+
+  // rounded buttons
+  .btn-#{$key}-rounded {
+    @include btn($val, $base-border-radius);
+    &:hover {
+      background-color: lighten($val, 10);
+    }
+  }
+
+  .btn-outlined-#{$key} {
+    @include btn(#fff, math.div($base-border-radius, 4));
+    border: $base-border-thickness solid $val;
+    &:hover {
+      background-color: $val;
+    }
+  }
+
+  // rounded outlined buttons
+  .btn-outlined-#{$key}-rounded {
+    @include btn(#fff, $base-border-radius);
+    border: $base-border-thickness solid $val;
+    &:hover {
+      background-color: $val;
+    }
+  }
+}
