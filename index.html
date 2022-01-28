@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>argon css</title>
     <link rel="stylesheet" href="/css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <nav class="navbar-primary text-white mb-4">
@@ -283,19 +289,43 @@
     </p>
 
     <!-- alert -->
-    <div
-      class="display-f font-bold justify-start align-items-center m-3 br-xs w-80 h-12 bg-orange-light-6 cursor-pointer p-1 shadow-2xl"
-    >
-      <span class="ml-1 font-bold text-grey-dark-4 font-md"
-        >This is a alert...this is an alert!</span
+    <div class="alert-box bg-primary-light-3 text-primary-dark-6">
+      A primary alert example with a text link
+      <a
+        class="link-text cursor-pointer text-decoration-underline link-text-primary"
+        >Text Link</a
       >
     </div>
+    <div class="alert-box bg-secondary-light-3 text-secondary-dark-6">
+      A secondary alert example!!!!
+    </div>
+    <div class="alert-box bg-green-light-3 text-green-dark-6">
+      <span><i class="alert-icon fas fa-check-circle"></i></span>
+      A success alert example: order placed
+    </div>
+    <div class="alert-box bg-red-light-3 text-red-dark-6">
+      <span><i class="alert-icon fas fa-exclamation-triangle"></i></span>
+      A danger alert example: Are you sure you want to delete the account
+      permanently?
+    </div>
+    <div class="alert-box bg-yellow-light-3 text-yellow-dark-6">
+      <span><i class="alert-icon fas fa-exclamation-triangle"></i></span>
+      A warning alert example: Fill all the fields before submitting
+    </div>
+
     <div
-      class="display-f font-bold justify-start align-items-center m-3 br-xs w-80 h-12 bg-red-light-6 cursor-pointer p-1 shadow-xl"
+      class="alert-box bg-orange-light-4 text-orange-dark-6"
+      id="alert-example-close"
     >
-      <span class="ml-1 text-underline font-bold text-black-dark-4 font-md"
-        >This is a alert...this is an alert!</span
-      >
+      <span>
+        <i class="alert-icon fas fa-exclamation-triangle"></i>
+      </span>
+      A warning alert example!!!
+      <button
+        type="button"
+        class="btn-close"
+        id="alert-example-close-btn"
+      ></button>
     </div>
   </body>
 </html>
