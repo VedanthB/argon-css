@@ -2554,6 +2554,7 @@ img {
   display: inline-flex;
   border-radius: 5px;
   transition: all 0.3s linear;
+  border: none;
 }
 
 .btn-primary {
@@ -2562,6 +2563,7 @@ img {
   display: inline-flex;
   border-radius: 5px;
   transition: all 0.3s linear;
+  border: none;
 }
 .btn-primary:hover {
   background-color: #618ff2;
@@ -2573,6 +2575,7 @@ img {
   display: inline-flex;
   border-radius: 20px;
   transition: all 0.3s linear;
+  border: none;
 }
 .btn-primary-rounded:hover {
   background-color: #618ff2;
@@ -2584,6 +2587,7 @@ img {
   display: inline-flex;
   border-radius: 5px;
   transition: all 0.3s linear;
+  border: none;
   border: 1px solid #326dee;
 }
 .btn-outlined-primary:hover {
@@ -2596,6 +2600,7 @@ img {
   display: inline-flex;
   border-radius: 20px;
   transition: all 0.3s linear;
+  border: none;
   border: 1px solid #326dee;
 }
 .btn-outlined-primary-rounded:hover {
@@ -2608,6 +2613,7 @@ img {
   display: inline-flex;
   border-radius: 5px;
   transition: all 0.3s linear;
+  border: none;
   color: white;
 }
 .btn-complement-primary:hover {
@@ -2621,6 +2627,7 @@ img {
   display: inline-flex;
   border-radius: 5px;
   transition: all 0.3s linear;
+  border: none;
 }
 .btn-secondary:hover {
   background-color: #31e4a0;
@@ -2632,6 +2639,7 @@ img {
   display: inline-flex;
   border-radius: 20px;
   transition: all 0.3s linear;
+  border: none;
 }
 .btn-secondary-rounded:hover {
   background-color: #31e4a0;
@@ -2643,6 +2651,7 @@ img {
   display: inline-flex;
   border-radius: 5px;
   transition: all 0.3s linear;
+  border: none;
   border: 1px solid #1ac886;
 }
 .btn-outlined-secondary:hover {
@@ -2655,6 +2664,7 @@ img {
   display: inline-flex;
   border-radius: 20px;
   transition: all 0.3s linear;
+  border: none;
   border: 1px solid #1ac886;
 }
 .btn-outlined-secondary-rounded:hover {
@@ -2667,6 +2677,7 @@ img {
   display: inline-flex;
   border-radius: 5px;
   transition: all 0.3s linear;
+  border: none;
   color: #fce5ee;
 }
 .btn-complement-secondary:hover {
@@ -2680,6 +2691,7 @@ img {
   display: inline-flex;
   border-radius: 5px;
   transition: all 0.3s linear;
+  border: none;
 }
 .btn-error:hover {
   background-color: #de4f73;
@@ -2691,6 +2703,7 @@ img {
   display: inline-flex;
   border-radius: 20px;
   transition: all 0.3s linear;
+  border: none;
 }
 .btn-error-rounded:hover {
   background-color: #de4f73;
@@ -2702,6 +2715,7 @@ img {
   display: inline-flex;
   border-radius: 5px;
   transition: all 0.3s linear;
+  border: none;
   border: 1px solid #d32752;
 }
 .btn-outlined-error:hover {
@@ -2714,6 +2728,7 @@ img {
   display: inline-flex;
   border-radius: 20px;
   transition: all 0.3s linear;
+  border: none;
   border: 1px solid #d32752;
 }
 .btn-outlined-error-rounded:hover {
@@ -2726,6 +2741,7 @@ img {
   display: inline-flex;
   border-radius: 5px;
   transition: all 0.3s linear;
+  border: none;
   color: #fbfefd;
 }
 .btn-complement-error:hover {
@@ -2739,6 +2755,7 @@ img {
   display: inline-flex;
   border-radius: 5px;
   transition: all 0.3s linear;
+  border: none;
 }
 .btn-info:hover {
   background-color: #f8d04d;
@@ -2750,6 +2767,7 @@ img {
   display: inline-flex;
   border-radius: 20px;
   transition: all 0.3s linear;
+  border: none;
 }
 .btn-info-rounded:hover {
   background-color: #f8d04d;
@@ -2761,6 +2779,7 @@ img {
   display: inline-flex;
   border-radius: 5px;
   transition: all 0.3s linear;
+  border: none;
   border: 1px solid #f6c31c;
 }
 .btn-outlined-info:hover {
@@ -2773,6 +2792,7 @@ img {
   display: inline-flex;
   border-radius: 20px;
   transition: all 0.3s linear;
+  border: none;
   border: 1px solid #f6c31c;
 }
 .btn-outlined-info-rounded:hover {
@@ -2785,6 +2805,7 @@ img {
   display: inline-flex;
   border-radius: 5px;
   transition: all 0.3s linear;
+  border: none;
   color: white;
 }
 .btn-complement-info:hover {
@@ -2798,6 +2819,7 @@ img {
   display: inline-flex;
   border-radius: 5px;
   transition: all 0.3s linear;
+  border: none;
 }
 .btn-blue:hover {
   background-color: #4747eb;
@@ -2809,6 +2831,7 @@ img {
   display: inline-flex;
   border-radius: 20px;
   transition: all 0.3s linear;
+  border: none;
 }
 .btn-blue-rounded:hover {
   background-color: #4747eb;
@@ -2820,6 +2843,7 @@ img {
   display: inline-flex;
   border-radius: 5px;
   transition: all 0.3s linear;
+  border: none;
   border: 1px solid #1919e6;
 }
 .btn-outlined-blue:hover {
@@ -2832,6 +2856,7 @@ img {
   display: inline-flex;
   border-radius: 20px;
   transition: all 0.3s linear;
+  border: none;
   border: 1px solid #1919e6;
 }
 .btn-outlined-blue-rounded:hover {
@@ -2844,6 +2869,7 @@ img {
   display: inline-flex;
   border-radius: 5px;
   transition: all 0.3s linear;
+  border: none;
   color: white;
 }
 .btn-complement-blue:hover {
@@ -2857,6 +2883,7 @@ img {
   display: inline-flex;
   border-radius: 5px;
   transition: all 0.3s linear;
+  border: none;
 }
 .btn-red:hover {
   background-color: #eb4747;
@@ -2868,6 +2895,7 @@ img {
   display: inline-flex;
   border-radius: 20px;
   transition: all 0.3s linear;
+  border: none;
 }
 .btn-red-rounded:hover {
   background-color: #eb4747;
@@ -2879,6 +2907,7 @@ img {
   display: inline-flex;
   border-radius: 5px;
   transition: all 0.3s linear;
+  border: none;
   border: 1px solid #e61919;
 }
 .btn-outlined-red:hover {
@@ -2891,6 +2920,7 @@ img {
   display: inline-flex;
   border-radius: 20px;
   transition: all 0.3s linear;
+  border: none;
   border: 1px solid #e61919;
 }
 .btn-outlined-red-rounded:hover {
@@ -2903,6 +2933,7 @@ img {
   display: inline-flex;
   border-radius: 5px;
   transition: all 0.3s linear;
+  border: none;
   color: white;
 }
 .btn-complement-red:hover {
@@ -2916,6 +2947,7 @@ img {
   display: inline-flex;
   border-radius: 5px;
   transition: all 0.3s linear;
+  border: none;
 }
 .btn-yellow:hover {
   background-color: #ebeb47;
@@ -2927,6 +2959,7 @@ img {
   display: inline-flex;
   border-radius: 20px;
   transition: all 0.3s linear;
+  border: none;
 }
 .btn-yellow-rounded:hover {
   background-color: #ebeb47;
@@ -2938,6 +2971,7 @@ img {
   display: inline-flex;
   border-radius: 5px;
   transition: all 0.3s linear;
+  border: none;
   border: 1px solid #e6e619;
 }
 .btn-outlined-yellow:hover {
@@ -2950,6 +2984,7 @@ img {
   display: inline-flex;
   border-radius: 20px;
   transition: all 0.3s linear;
+  border: none;
   border: 1px solid #e6e619;
 }
 .btn-outlined-yellow-rounded:hover {
@@ -2962,6 +2997,7 @@ img {
   display: inline-flex;
   border-radius: 5px;
   transition: all 0.3s linear;
+  border: none;
   color: white;
 }
 .btn-complement-yellow:hover {
@@ -2975,6 +3011,7 @@ img {
   display: inline-flex;
   border-radius: 5px;
   transition: all 0.3s linear;
+  border: none;
 }
 .btn-green:hover {
   background-color: #47eb5d;
@@ -2986,6 +3023,7 @@ img {
   display: inline-flex;
   border-radius: 20px;
   transition: all 0.3s linear;
+  border: none;
 }
 .btn-green-rounded:hover {
   background-color: #47eb5d;
@@ -2997,6 +3035,7 @@ img {
   display: inline-flex;
   border-radius: 5px;
   transition: all 0.3s linear;
+  border: none;
   border: 1px solid #19e635;
 }
 .btn-outlined-green:hover {
@@ -3009,6 +3048,7 @@ img {
   display: inline-flex;
   border-radius: 20px;
   transition: all 0.3s linear;
+  border: none;
   border: 1px solid #19e635;
 }
 .btn-outlined-green-rounded:hover {
@@ -3021,6 +3061,7 @@ img {
   display: inline-flex;
   border-radius: 5px;
   transition: all 0.3s linear;
+  border: none;
   color: white;
 }
 .btn-complement-green:hover {
@@ -3034,6 +3075,7 @@ img {
   display: inline-flex;
   border-radius: 5px;
   transition: all 0.3s linear;
+  border: none;
 }
 .btn-orange:hover {
   background-color: #ffb833;
@@ -3045,6 +3087,7 @@ img {
   display: inline-flex;
   border-radius: 20px;
   transition: all 0.3s linear;
+  border: none;
 }
 .btn-orange-rounded:hover {
   background-color: #ffb833;
@@ -3056,6 +3099,7 @@ img {
   display: inline-flex;
   border-radius: 5px;
   transition: all 0.3s linear;
+  border: none;
   border: 1px solid #ffa600;
 }
 .btn-outlined-orange:hover {
@@ -3068,6 +3112,7 @@ img {
   display: inline-flex;
   border-radius: 20px;
   transition: all 0.3s linear;
+  border: none;
   border: 1px solid #ffa600;
 }
 .btn-outlined-orange-rounded:hover {
@@ -3080,6 +3125,7 @@ img {
   display: inline-flex;
   border-radius: 5px;
   transition: all 0.3s linear;
+  border: none;
   color: white;
 }
 .btn-complement-orange:hover {
@@ -3093,6 +3139,7 @@ img {
   display: inline-flex;
   border-radius: 5px;
   transition: all 0.3s linear;
+  border: none;
 }
 .btn-purple:hover {
   background-color: #ad33ff;
@@ -3104,6 +3151,7 @@ img {
   display: inline-flex;
   border-radius: 20px;
   transition: all 0.3s linear;
+  border: none;
 }
 .btn-purple-rounded:hover {
   background-color: #ad33ff;
@@ -3115,6 +3163,7 @@ img {
   display: inline-flex;
   border-radius: 5px;
   transition: all 0.3s linear;
+  border: none;
   border: 1px solid #9900ff;
 }
 .btn-outlined-purple:hover {
@@ -3127,6 +3176,7 @@ img {
   display: inline-flex;
   border-radius: 20px;
   transition: all 0.3s linear;
+  border: none;
   border: 1px solid #9900ff;
 }
 .btn-outlined-purple-rounded:hover {
@@ -3139,6 +3189,7 @@ img {
   display: inline-flex;
   border-radius: 5px;
   transition: all 0.3s linear;
+  border: none;
   color: white;
 }
 .btn-complement-purple:hover {
@@ -3152,6 +3203,7 @@ img {
   display: inline-flex;
   border-radius: 5px;
   transition: all 0.3s linear;
+  border: none;
 }
 .btn-grey:hover {
   background-color: #9a9a9a;
@@ -3163,6 +3215,7 @@ img {
   display: inline-flex;
   border-radius: 20px;
   transition: all 0.3s linear;
+  border: none;
 }
 .btn-grey-rounded:hover {
   background-color: #9a9a9a;
@@ -3174,6 +3227,7 @@ img {
   display: inline-flex;
   border-radius: 5px;
   transition: all 0.3s linear;
+  border: none;
   border: 1px solid #808080;
 }
 .btn-outlined-grey:hover {
@@ -3186,6 +3240,7 @@ img {
   display: inline-flex;
   border-radius: 20px;
   transition: all 0.3s linear;
+  border: none;
   border: 1px solid #808080;
 }
 .btn-outlined-grey-rounded:hover {
@@ -3198,6 +3253,7 @@ img {
   display: inline-flex;
   border-radius: 5px;
   transition: all 0.3s linear;
+  border: none;
   color: white;
 }
 .btn-complement-grey:hover {
@@ -3211,6 +3267,7 @@ img {
   display: inline-flex;
   border-radius: 5px;
   transition: all 0.3s linear;
+  border: none;
 }
 .btn-black:hover {
   background-color: #1a1a1a;
@@ -3222,6 +3279,7 @@ img {
   display: inline-flex;
   border-radius: 20px;
   transition: all 0.3s linear;
+  border: none;
 }
 .btn-black-rounded:hover {
   background-color: #1a1a1a;
@@ -3233,6 +3291,7 @@ img {
   display: inline-flex;
   border-radius: 5px;
   transition: all 0.3s linear;
+  border: none;
   border: 1px solid black;
 }
 .btn-outlined-black:hover {
@@ -3245,6 +3304,7 @@ img {
   display: inline-flex;
   border-radius: 20px;
   transition: all 0.3s linear;
+  border: none;
   border: 1px solid black;
 }
 .btn-outlined-black-rounded:hover {
@@ -3257,6 +3317,7 @@ img {
   display: inline-flex;
   border-radius: 5px;
   transition: all 0.3s linear;
+  border: none;
   color: gray;
 }
 .btn-complement-black:hover {
@@ -3270,6 +3331,7 @@ img {
   display: inline-flex;
   border-radius: 5px;
   transition: all 0.3s linear;
+  border: none;
 }
 .btn-white:hover {
   background-color: white;
@@ -3281,6 +3343,7 @@ img {
   display: inline-flex;
   border-radius: 20px;
   transition: all 0.3s linear;
+  border: none;
 }
 .btn-white-rounded:hover {
   background-color: white;
@@ -3292,6 +3355,7 @@ img {
   display: inline-flex;
   border-radius: 5px;
   transition: all 0.3s linear;
+  border: none;
   border: 1px solid white;
 }
 .btn-outlined-white:hover {
@@ -3304,6 +3368,7 @@ img {
   display: inline-flex;
   border-radius: 20px;
   transition: all 0.3s linear;
+  border: none;
   border: 1px solid white;
 }
 .btn-outlined-white-rounded:hover {
@@ -3316,10 +3381,78 @@ img {
   display: inline-flex;
   border-radius: 5px;
   transition: all 0.3s linear;
+  border: none;
   color: white;
 }
 .btn-complement-white:hover {
   color: white;
+  background-color: white;
+}
+
+.navbar .container, .navbar-white .container, .navbar-black .container, .navbar-grey .container, .navbar-purple .container, .navbar-orange .container, .navbar-green .container, .navbar-yellow .container, .navbar-red .container, .navbar-blue .container, .navbar-info .container, .navbar-error .container, .navbar-secondary .container, .navbar-primary .container, .navbar, .navbar-white, .navbar-black, .navbar-grey, .navbar-purple, .navbar-orange, .navbar-green, .navbar-yellow, .navbar-red, .navbar-blue, .navbar-info, .navbar-error, .navbar-secondary, .navbar-primary {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.navbar, .navbar-white, .navbar-black, .navbar-grey, .navbar-purple, .navbar-orange, .navbar-green, .navbar-yellow, .navbar-red, .navbar-blue, .navbar-info, .navbar-error, .navbar-secondary, .navbar-primary {
+  padding: 0.75rem 1.5rem;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.navbar .site-title, .navbar-white .site-title, .navbar-black .site-title, .navbar-grey .site-title, .navbar-purple .site-title, .navbar-orange .site-title, .navbar-green .site-title, .navbar-yellow .site-title, .navbar-red .site-title, .navbar-blue .site-title, .navbar-info .site-title, .navbar-error .site-title, .navbar-secondary .site-title, .navbar-primary .site-title {
+  font-size: 1.5rem;
+}
+.navbar-primary {
+  background-color: #326dee;
+}
+
+.navbar-secondary {
+  background-color: #1ac886;
+}
+
+.navbar-error {
+  background-color: #d32752;
+}
+
+.navbar-info {
+  background-color: #f6c31c;
+}
+
+.navbar-blue {
+  background-color: #1919e6;
+}
+
+.navbar-red {
+  background-color: #e61919;
+}
+
+.navbar-yellow {
+  background-color: #e6e619;
+}
+
+.navbar-green {
+  background-color: #19e635;
+}
+
+.navbar-orange {
+  background-color: #ffa600;
+}
+
+.navbar-purple {
+  background-color: #9900ff;
+}
+
+.navbar-grey {
+  background-color: #808080;
+}
+
+.navbar-black {
+  background-color: black;
+}
+
+.navbar-white {
   background-color: white;
 }
 
