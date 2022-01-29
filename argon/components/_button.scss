@@ -23,6 +23,26 @@
       background-color: lighten($val, 10);
     }
   }
+  // link button
+  .btn-#{$key}-link {
+    @include btn($val, math.div($base-border-radius, 4));
+    text-decoration: underline;
+    background-color: transparent;
+    text-decoration-color: $val;
+    text-underline-position: under;
+    &:hover {
+      color: $val;
+      text-decoration-thickness: 2px;
+    }
+  }
+
+  .btn-#{$key}-icon {
+    @include btn(transparent, math.div($base-border-radius, 4));
+    color: $val;
+    &:hover {
+      color: lighten($val, 10);
+    }
+  }
 
   // rounded buttons
   .btn-#{$key}-rounded {
@@ -57,4 +77,94 @@
       background-color: light-comp($val);
     }
   }
+}
+
+/* icon buttons */
+// .btn-icon-primary .btn-icon {
+//   color: var(--primary-color);
+// }
+
+/* inactive links */
+
+.btn-disabled {
+  pointer-events: none;
+  opacity: 0.7;
+}
+/* CTA sizes */
+.btn-lg {
+  font-size: 1.1rem;
+  padding: 0.7rem 1.5rem;
+  min-width: 80px;
+}
+.btn-sm {
+  font-size: 0.9rem;
+  padding: 0.3rem 0.7rem;
+}
+
+/* floating action button */
+.btn-float-action {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  font-size: 1rem;
+  border-radius: 50%;
+  color: var(--complimentary-text-color);
+  background-color: var(--primary-color);
+  z-index: 10;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+/* toggle button */
+
+.btn-toggle {
+  position: relative;
+  height: 26px;
+  width: 44px;
+  display: block;
+  cursor: pointer;
+}
+.btn-toggle:focus-within {
+  box-shadow: 0 0 0 2px black;
+}
+
+.btn-checkbox {
+  height: 0;
+  width: 0;
+  margin: 0;
+  opacity: 0;
+}
+
+.btn-toggle .btn-slider-round {
+  position: absolute;
+  top: 0;
+  left: 9px;
+  height: 26px;
+  width: 26px;
+  background-color: #326dee;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+.btn-toggle .btn-slider-round::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 9px;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: rgb(226, 226, 226);
+  transition: 0.4s;
+}
+
+.btn-toggle .btn-checkbox:checked + .btn-slider-round::before {
+  transform: translateX(-18px);
+}
+.btn-toggle .btn-checkbox:checked + .btn-slider-round {
+  background-color: #326dee;
 }
