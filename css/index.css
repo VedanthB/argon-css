@@ -3771,8 +3771,6 @@ img {
   background-color: white;
 }
 
-/* icon buttons */
-/* inactive links */
 .btn-disabled {
   pointer-events: none;
   opacity: 0.7;
@@ -3801,8 +3799,6 @@ img {
   height: 50px;
   font-size: 1rem;
   border-radius: 50%;
-  color: var(--complimentary-text-color);
-  background-color: var(--primary-color);
   z-index: 10;
   position: fixed;
   bottom: 1rem;
@@ -3816,10 +3812,6 @@ img {
   width: 44px;
   display: block;
   cursor: pointer;
-}
-
-.btn-toggle:focus-within {
-  box-shadow: 0 0 0 2px black;
 }
 
 .btn-checkbox {
